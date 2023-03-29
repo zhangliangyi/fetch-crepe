@@ -1,0 +1,56 @@
+{
+  "name": "fetch-crepe",
+  "version": "1.0.0",
+  "description": "Native Fetch API client driven by middleware.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "npm run eslint",
+    "eslint": "eslint src --ext js,ts,jsx,tsx",
+    "format": "prettier --write src",
+    "prepare": "husky install",
+    "test": "jest --passWithNoTests --collectCoverage",
+    "test:dev": "jest --watchAll --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangliangyi/fetch-crepe.git"
+  },
+  "keywords": [
+    "fetch",
+    "middleware"
+  ],
+  "author": "zhang.liangyi@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangliangyi/fetch-crepe/issues"
+  },
+  "homepage": "https://github.com/zhangliangyi/fetch-crepe#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@commitlint/format": "^17.4.4",
+    "@tsconfig/node16": "^1.0.3",
+    "@types/jest": "^29.5.0",
+    "@types/node-fetch": "^2.6.3",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "jest-fetch-mock": "^3.0.3",
+    "lint-staged": "^13.2.0",
+    "node-fetch": "^3.3.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.2"
+  }
+}

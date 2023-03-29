@@ -1,0 +1,3 @@
+{
+  "*.{js,ts,jsx,tsx,css": ["npm run lint", "prettier --write"]
+}

@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+  ],
+  "overrides": [
+    {
+      "files": "*.ts",
+      "extends": [
+        "prettier",
+        "plugin:@typescript-eslint/recommended"
+      ]
+    }
+  ]
+}
